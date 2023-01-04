@@ -1,0 +1,147 @@
+header{
+	background: linear-gradient(159deg, rgba(119,37,255,1) 0%, rgba(0,53,78,1) 63%);
+	padding: 20px 0;
+	min-height:30vh;
+	max-width:100vw;
+}
+
+img{
+	margin:auto;
+	display:block;
+	min-width:20vw;
+	max-height:20vh;
+}
+
+@media screen and (min-width:940px){
+	img{
+		min-width:185px;
+		max-height:250px;
+	}
+	
+}
+
+.caixa{
+	position:relative;
+	max-width: 100vw;
+	max-height:100vh;
+	left:0;
+	right:0;
+	margin: auto;
+	align-items: center;
+}
+
+ul{
+	display:flex;
+	justify-content: space-around;
+}
+
+/*nav li{
+	display: inline-flex; /*deixar do lado do outro*/
+	/*margin: 0 0 0 15px;
+	max-width:100vw;
+}*/
+
+a{
+	max-width:100vw;
+	text-transform: uppercase; /*maiusculo*/
+	color: #bdbdbd;
+	font-weight: bold;
+	font-size: 2.2rem;
+	display:inline-block;
+	margin-left:5rem;
+	margin-right:2rem;
+	margin-top:15rem;
+	text-decoration: none; /*decoração padrao nenhuma*/
+	/*background:purple;*/
+	
+}
+
+nav a:hover{ /*quando o mouse está passanto por cima*/
+	color:#C78C19;
+	text-decoration: underline;
+}
+
+
+.servicos{
+	width:940px;
+	margin: 0 auto;
+	padding: 50px 0;
+}
+
+.servicos li{
+	display: inline-block;
+	text-align :center;
+	width: 30%; /*utiliza 30% da largura da pagina*/
+	vertical-align: top; /*alinha pela linha de cima*/
+	margin: 0 1.5%; /*MARGEM EXTERNA*/
+	padding: 30px 20px; /*margem interna*/
+	box-sizing: border-box;
+	border: 2px /*tamanho*/ solid/*tipo*/ #000000;
+	border-radius: 10px; /*arredondar bordas*/
+}
+
+.servicos li:hover{
+	border-color:#C78C19;
+}
+
+.servicos li:active{
+	border-color: darkblue;
+}
+
+.servicos li:hover h2{
+	font-size: 32px;
+}
+
+.servicos li:active h2{
+	font-size: 30px;
+}
+
+.servicos h2{
+	font-size: 30px;
+	font-weight: bold; /*negrito*/
+}
+
+.produto-descricao{
+	font-size: 18px;
+}
+
+.produto-preco{
+	font-size: 20px;
+	font-weight: bold;
+	margin-top: 10px;
+}
+
+footer{
+	text-align: center;
+	background: url("bg.jpg");
+	padding: 70px 0;
+	margin-top: 350px;
+}
+
+.copyright{
+	color: white;
+	font-size: 13px;
+	margin: 0px 0;
+}
+
+main{
+	max-width:940px;
+	margin: 0 auto;
+}
+
+form{
+	margin:40px 0;
+}
+
+form label, form p{
+	display:block;
+	font-size: 20px;
+	margin: 0 0 10px;
+}
+
+form input, form textarea {
+	display:block;
+	margin: 0 0 20px; /*margin pra baixo*/
+	padding: 10px 20px; /*margin cima e baixo e lados*/
+	width: 50%;
+}

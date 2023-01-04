@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8">
+		<!--<meta http-equiv='X-UA-Compatible' content='IE=edge'>-->
+		<title>Contato - Pablo Barbearia</title>
+		<!--<meta name='viewport' content='width=device-width, initial-scale=8'>-->
+		<link rel="stylesheet" href="reset.css">
+		<link rel="stylesheet" href="style.css">
+	</head>
+
+	<body class="teste">
+		<header>
+			<div class="caixa">
+				<h1><img src="./images/logo.png"></h1>
+			<div>
+				<nav> <!--navegação-->
+					<ul class="pai">
+						<li class="centro"><a href="index.html">Home</a></li>
+						<li class="centro"><a href="produtos.html">Produtos</a></li>
+						<li class="centro"><a href="contatos.html">Contato</a></li>
+					</ul>
+				</nav>
+		</header>
+
+        <main><!--conteudo principal-->
+            <form>
+				<label for="nomesobrenome">Nome e sobrenome</label>
+				<input type="text" id="nomesobrenome">
+
+				<label for="email">E-mail</label>
+				<input type="text" id="e=mail">
+
+				<label for="telefone">Telefone</label>
+				<input type="text" id="telefone">
+
+				<label for="mensagem">Mensagem</label>
+				<textarea cols="70" rows="10"></textarea>
+				<div>
+				<p>Contatar via:</p>
+				<label for="radio-email"><input type="radio" name="contato" value="email" id="radio-email">E-mail</label>
+				
+
+				<label for="radio-telefone"><input type="radio" name="contato" value="telefone" id="radio-telefone">Telefone</label>
+				
+
+				<label for="radio-whatsapp"><input type="radio" name="contato" value="whatsapp" id="radio-whatsapp">WhatsApp</label>
+				
+				<!--type radio serve para opções únicas (que só podem ser marcadas 1 única opção), type checkbox várias opções-->
+				<!--name="" serve pra identificar como um conjunto único de opções-->
+				<!--name para mesmo atributo e values para diferentes atributos-->
+				</div>
+
+				<label><input type="checkbox">Gostaria de receber nossas novidades por e-mail?</label>
+
+				<input type="submit" value="Enviar formulário">
+			</form>
+        </main>
+        <footer>
+			<img src="./images/logo-branco.png">
+			<p class="copyright">&copy; Copyright Pablo Barbearia - 2019></p>
+		</footer>
+	</body>
+</html>
